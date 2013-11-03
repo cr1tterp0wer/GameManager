@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{737ee544-2d8a-4d7c-962f-940f24594ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\TownState">
+      <UniqueIdentifier>{11d3e276-22d0-416a-a254-85146f5a84a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\DungeonState">
+      <UniqueIdentifier>{53ae8312-94bd-4bf8-bfac-ff68728f9b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\MenuState">
+      <UniqueIdentifier>{94b95830-992b-42f7-b84c-d7bddbeb9330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\InteriorState">
+      <UniqueIdentifier>{38db0e7e-de6b-4cfa-9a87-50b3c20a6c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\InteriorState\SubState">
+      <UniqueIdentifier>{039c2fc6-4d50-4836-a1d3-ba4588a7ca6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States.h">
+      <UniqueIdentifier>{ffb8658b-8022-4b87-884b-99e775d89988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States.h\MenuStates.h">
+      <UniqueIdentifier>{627f8b16-b7d0-42d0-a05e-e94cfe31b182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States.h\DungeonStates.h">
+      <UniqueIdentifier>{b43c02b6-26d8-4dd3-9cf0-624c402b60b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States.h\InteriorStates.h">
+      <UniqueIdentifier>{c8ff7f26-a3ff-45cb-b6f8-7b3f2fff4db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States.h\InteriorStates.h\SubStates.h">
+      <UniqueIdentifier>{ee3295b7-6bb6-4c01-aefe-b2df3e923347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States.h\TownStates.h">
+      <UniqueIdentifier>{f5f51fe4-78d7-46de-bbc6-2877f2cc4972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States.h\MenuStates.h\MapStates.h">
+      <UniqueIdentifier>{3bf5a36f-ad0d-45f2-849c-c8ad8c956235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\MenuState\MapState">
+      <UniqueIdentifier>{58f78eeb-89c7-4114-a1df-e300f52c063d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="TownState.cpp">
+      <Filter>Source Files\States\TownState</Filter>
+    </ClCompile>
+    <ClCompile Include="InteriorState.cpp">
+      <Filter>Source Files\States\InteriorState</Filter>
+    </ClCompile>
+    <ClCompile Include="SubState.cpp">
+      <Filter>Source Files\States\InteriorState\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonState.cpp">
+      <Filter>Source Files\States\DungeonState</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\States\MenuState</Filter>
+    </ClCompile>
+    <ClCompile Include="MapState.cpp">
+      <Filter>Source Files\States\MenuState\MapState</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InteriorState.h">
+      <Filter>Header Files\States.h\InteriorStates.h</Filter>
+    </ClInclude>
+    <ClInclude Include="SubState.h">
+      <Filter>Header Files\States.h\InteriorStates.h\SubStates.h</Filter>
+    </ClInclude>
+    <ClInclude Include="TownState.h">
+      <Filter>Header Files\States.h\TownStates.h</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonState.h">
+      <Filter>Header Files\States.h\DungeonStates.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\States.h\MenuStates.h</Filter>
+    </ClInclude>
+    <ClInclude Include="MapState.h">
+      <Filter>Header Files\States.h\MenuStates.h\MapStates.h</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\States.h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
